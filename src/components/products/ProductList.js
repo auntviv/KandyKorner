@@ -24,7 +24,7 @@ export const ProductList = () => {
     return (
         <>
             {
-                locations.map(
+                products.map(
                     // using the map array mathod to convert the object to html it takes a function
                     (productObject) => {
                         // productObject paramater to capture each individual customer object as it iterates
